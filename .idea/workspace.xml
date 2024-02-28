@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9088081c-c601-486c-be72-896b64501d76" name="Changes" comment="add HW1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9088081c-c601-486c-be72-896b64501d76" name="Changes" comment="add HW2">
+      <change afterPath="$PROJECT_DIR$/HW3/hw3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW3/hw3.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -55,6 +56,7 @@
       <workItem from="1708553142843" duration="577000" />
       <workItem from="1709153410448" duration="67000" />
       <workItem from="1709153722065" duration="14000" />
+      <workItem from="1709153920386" duration="629000" />
     </task>
     <task id="LOCAL-00001" summary="add HW1">
       <option name="closed" value="true" />
@@ -72,7 +74,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708553731997</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add HW2">
+      <option name="closed" value="true" />
+      <created>1709154451985</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709154451985</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,6 +90,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add HW1" />
-    <option name="LAST_COMMIT_MESSAGE" value="add HW1" />
+    <MESSAGE value="add HW2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add HW2" />
   </component>
 </project>

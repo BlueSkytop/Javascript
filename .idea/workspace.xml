@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9088081c-c601-486c-be72-896b64501d76" name="Changes" comment="add HW2">
-      <change afterPath="$PROJECT_DIR$/HW3/hw3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3/hw3.js" afterDir="false" />
+    <list default="true" id="9088081c-c601-486c-be72-896b64501d76" name="Changes" comment="add HW3">
+      <change afterPath="$PROJECT_DIR$/HW4/hw4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4/hw4.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,7 @@
       <workItem from="1709153410448" duration="67000" />
       <workItem from="1709153722065" duration="14000" />
       <workItem from="1709153920386" duration="629000" />
+      <workItem from="1709154644669" duration="471000" />
     </task>
     <task id="LOCAL-00001" summary="add HW1">
       <option name="closed" value="true" />
@@ -82,7 +83,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709154451985</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add HW3">
+      <option name="closed" value="true" />
+      <created>1709154733356</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709154733356</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +100,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add HW1" />
     <MESSAGE value="add HW2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add HW2" />
+    <MESSAGE value="add HW3" />
+    <option name="LAST_COMMIT_MESSAGE" value="add HW3" />
   </component>
 </project>

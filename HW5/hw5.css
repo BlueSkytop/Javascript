@@ -1,0 +1,38 @@
+.text1{
+    font-size: 24px;
+    color: darkmagenta;
+}
+ul{
+    font-size: 26px;
+    color: grey;
+}
+.block2{
+    font-size: 12px;
+    color: darkblue;
+}
+.block3{
+    font-size: 40px;
+    color: #341d49;
+    animation-name: block3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes  block3{
+    0%{
+        color: cornflowerblue;
+    }
+    100%{
+        color: darkgreen;
+    }
+}
+.block4{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    background-color: #cfe3c8;
+
+    text-align: center;
+    color: #0e0d0d;
+    font-size: 28px;
+}
+

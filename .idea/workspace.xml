@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9088081c-c601-486c-be72-896b64501d76" name="Changes" comment="add HW4">
-      <change afterPath="$PROJECT_DIR$/HW5/hw5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW5/hw5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9088081c-c601-486c-be72-896b64501d76" name="Changes" comment="create HW5 html and js" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +57,7 @@
       <workItem from="1709153920386" duration="629000" />
       <workItem from="1709154644669" duration="471000" />
       <workItem from="1709155255364" duration="117000" />
-      <workItem from="1709367540820" duration="1630000" />
+      <workItem from="1709367540820" duration="1740000" />
     </task>
     <task id="LOCAL-00001" summary="add HW1">
       <option name="closed" value="true" />
@@ -103,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709155314031</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="create HW5 html and js">
+      <option name="closed" value="true" />
+      <created>1709370807685</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709370807685</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +118,7 @@
     <MESSAGE value="add HW2" />
     <MESSAGE value="add HW3" />
     <MESSAGE value="add HW4" />
-    <option name="LAST_COMMIT_MESSAGE" value="add HW4" />
+    <MESSAGE value="create HW5 html and js" />
+    <option name="LAST_COMMIT_MESSAGE" value="create HW5 html and js" />
   </component>
 </project>

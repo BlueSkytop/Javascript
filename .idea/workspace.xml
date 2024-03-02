@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9088081c-c601-486c-be72-896b64501d76" name="Changes" comment="add HW3">
-      <change afterPath="$PROJECT_DIR$/HW4/hw4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW4/hw4.js" afterDir="false" />
+    <list default="true" id="9088081c-c601-486c-be72-896b64501d76" name="Changes" comment="add HW4">
+      <change afterPath="$PROJECT_DIR$/HW5/hw5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW5/hw5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,20 +32,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "editing.templates",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,6 +60,8 @@
       <workItem from="1709153722065" duration="14000" />
       <workItem from="1709153920386" duration="629000" />
       <workItem from="1709154644669" duration="471000" />
+      <workItem from="1709155255364" duration="117000" />
+      <workItem from="1709367540820" duration="1630000" />
     </task>
     <task id="LOCAL-00001" summary="add HW1">
       <option name="closed" value="true" />
@@ -91,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709154733356</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add HW4">
+      <option name="closed" value="true" />
+      <created>1709155314031</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709155314031</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +113,7 @@
     <MESSAGE value="add HW1" />
     <MESSAGE value="add HW2" />
     <MESSAGE value="add HW3" />
-    <option name="LAST_COMMIT_MESSAGE" value="add HW3" />
+    <MESSAGE value="add HW4" />
+    <option name="LAST_COMMIT_MESSAGE" value="add HW4" />
   </component>
 </project>

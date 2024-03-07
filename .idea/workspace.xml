@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9088081c-c601-486c-be72-896b64501d76" name="Changes" comment="add HW5">
-      <change afterPath="$PROJECT_DIR$/HW6/hw6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW6/hw6.js" afterDir="false" />
+    <list default="true" id="9088081c-c601-486c-be72-896b64501d76" name="Changes" comment="create HW6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW6/hw6.js" beforeDir="false" afterPath="$PROJECT_DIR$/HW6/hw6.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,12 @@
       <workItem from="1709155255364" duration="117000" />
       <workItem from="1709367540820" duration="1740000" />
       <workItem from="1709396734467" duration="11620000" />
-      <workItem from="1709490518792" duration="325000" />
+      <workItem from="1709490518792" duration="445000" />
+      <workItem from="1709814274804" duration="4078000" />
+      <workItem from="1709823351017" duration="591000" />
+      <workItem from="1709824050302" duration="4356000" />
+      <workItem from="1709835020910" duration="668000" />
+      <workItem from="1709837350734" duration="1372000" />
     </task>
     <task id="LOCAL-00001" summary="add HW1">
       <option name="closed" value="true" />
@@ -121,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709411644294</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="create HW6">
+      <option name="closed" value="true" />
+      <created>1709490949257</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709490949257</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +146,7 @@
     <MESSAGE value="add HW4" />
     <MESSAGE value="create HW5 html and js" />
     <MESSAGE value="add HW5" />
-    <option name="LAST_COMMIT_MESSAGE" value="add HW5" />
+    <MESSAGE value="create HW6" />
+    <option name="LAST_COMMIT_MESSAGE" value="create HW6" />
   </component>
 </project>

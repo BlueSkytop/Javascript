@@ -213,7 +213,7 @@ let cinderellaArr = [
     new Cinderella ('Oksana', 22 , 37.5 ),
     new Cinderella ('Orusya', 23 , 38.5 ),
     new Cinderella ('Adelya', 29 , 39 ),
-    new Cinderella ('Tanya', 31 , 40 ),
+    new Cinderella ('Tanya', 31 , 46 ),
 ];
 let prince = new Prince('Sergey', 30, 46);
 console.log(prince.findPrincess(cinderellaArr));

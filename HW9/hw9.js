@@ -222,3 +222,62 @@ let coursesArray = [
     }
 ];
 
+let coursesDiv = document.createElement('div');
+document.body.appendChild(coursesDiv);
+coursesDiv.classList.add('courses');
+for (const coursesDivElement of coursesArray) {
+    let coursesDiv2 = document.createElement('div')
+    let coursesDivH2 = document.createElement('h2');
+
+    let coursesDivMini = document.createElement('div');
+    let coursesDivH4 = document.createElement('h4');
+    let coursesDivH5 = document.createElement('h5');
+
+    let coursesDivMini2 = document.createElement('div');
+    let coursesTag = document.createElement('b');
+    let coursesBlockA = document.createElement('div');
+    let coursesBlockB = document.createElement('div');
+    let coursesBlockC = document.createElement('div');
+    let coursesDivUl = document.createElement('ul');
+    let coursesDivLi = document.createElement('li');
+
+                            /**************************************/
+
+    coursesDiv2.classList.add('div2');
+    coursesDivH2.classList.add('titleClass');
+
+    coursesDivMini.classList.add('divMini');
+    coursesDivH4.classList.add('month');
+    coursesDivH5.classList.add('hour');
+
+    coursesDivMini2.classList.add('divMini2');
+    coursesBlockA.classList.add('blockA');
+    coursesBlockB.classList.add('blockB');
+    coursesBlockC.classList.add('blockC');
+
+                          /****************************************/
+
+    coursesDivH2.innerText = `Title: ${coursesDivElement.title}`;
+    coursesDivH4.innerText = `Month Duration: ${coursesDivElement.monthDuration}`;
+    coursesDivH5.innerText = `Hour Duration: ${coursesDivElement.hourDuration}`;
+    coursesTag.innerText = 'Modules:';
+    coursesDivLi.innerText = `${coursesDivElement.modules}`;
+    coursesBlockA.innerText = 'html';
+    coursesBlockB.innerText = 'css';
+    coursesBlockC.innerText = 'js'
+
+                        /*******************************************/
+    coursesDiv2.append(coursesDivH2);
+    coursesDiv.appendChild(coursesDiv2);
+
+    coursesDivMini.append(coursesDivH4, coursesDivH5);
+    coursesDiv2.appendChild(coursesDivMini);
+
+    coursesDivMini2.append(coursesTag, coursesBlockA, coursesBlockB, coursesBlockC);
+    coursesDiv2.appendChild(coursesDivMini2);
+
+    coursesDivMini2.append(coursesDivUl, coursesDivLi);
+    coursesDiv2.appendChild(coursesDivMini2);
+
+    coursesDivUl.appendChild(coursesDivLi);
+}

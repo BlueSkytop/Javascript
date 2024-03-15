@@ -1,0 +1,32 @@
+.
+.title{
+    height: 10vh;
+    border: 1px solid blue;
+}
+.div2{
+    border: 2px solid darkblue;
+    margin: 10px;
+    padding: 10px;
+}
+.titleClass, .month, .hour, .divMini2{
+    border: 1px solid darkblue;
+    margin: 3px;
+    padding: 3px;
+}
+.month{
+    width: 30vw;
+}
+.hour{
+    width: 70vw;
+}
+.divMini{
+    display: flex;
+}
+.divMini2{
+    height: 25vh;
+}
+.blockA, .blockB, .blockC{
+    border: 1px solid darkblue;
+    margin: 3px;
+    padding: 3px;
+}

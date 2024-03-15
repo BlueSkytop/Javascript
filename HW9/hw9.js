@@ -239,7 +239,7 @@ for (const coursesDivElement of coursesArray) {
     let coursesBlockB = document.createElement('div');
     let coursesBlockC = document.createElement('div');
     let coursesDivUl = document.createElement('ul');
-    let coursesDivLi = document.createElement('li');
+
 
                             /**************************************/
 
@@ -261,7 +261,6 @@ for (const coursesDivElement of coursesArray) {
     coursesDivH4.innerText = `Month Duration: ${coursesDivElement.monthDuration}`;
     coursesDivH5.innerText = `Hour Duration: ${coursesDivElement.hourDuration}`;
     coursesTag.innerText = 'Modules:';
-    coursesDivLi.innerText = `${coursesDivElement.modules}`;
     coursesBlockA.innerText = 'html';
     coursesBlockB.innerText = 'css';
     coursesBlockC.innerText = 'js'
@@ -276,8 +275,10 @@ for (const coursesDivElement of coursesArray) {
     coursesDivMini2.append(coursesTag, coursesBlockA, coursesBlockB, coursesBlockC);
     coursesDiv2.appendChild(coursesDivMini2);
 
-    coursesDivMini2.append(coursesDivUl, coursesDivLi);
-    coursesDiv2.appendChild(coursesDivMini2);
-
-    coursesDivUl.appendChild(coursesDivLi);
+    for (const module of coursesDivElement.modules) {
+        let divLi = document.createElement('li');
+        divLi.innerText = module;
+        coursesDivUl.append(divLi);
+        coursesDivMini2.appendChild(coursesDivUl);
+    }
 }

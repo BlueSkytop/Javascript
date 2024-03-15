@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9088081c-c601-486c-be72-896b64501d76" name="Changes" comment="create HW9, add 1-5 tasks">
-      <change afterPath="$PROJECT_DIR$/HW9/hw9.css" afterDir="false" />
+    <list default="true" id="9088081c-c601-486c-be72-896b64501d76" name="Changes" comment="add HW9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW9/hw9.html" beforeDir="false" afterPath="$PROJECT_DIR$/HW9/hw9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW9/hw9.css" beforeDir="false" afterPath="$PROJECT_DIR$/HW9/hw9.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW9/hw9.js" beforeDir="false" afterPath="$PROJECT_DIR$/HW9/hw9.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +83,7 @@
       <workItem from="1710360433891" duration="1006000" />
       <workItem from="1710423409682" duration="11754000" />
       <workItem from="1710489848967" duration="4113000" />
-      <workItem from="1710497357873" duration="9240000" />
+      <workItem from="1710497357873" duration="15550000" />
     </task>
     <task id="LOCAL-00001" summary="add HW1">
       <option name="closed" value="true" />
@@ -174,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710446149358</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add HW9">
+      <option name="closed" value="true" />
+      <created>1710514215030</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710514215030</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +198,7 @@
     <MESSAGE value="add HW6" />
     <MESSAGE value="add HW8" />
     <MESSAGE value="create HW9, add 1-5 tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="create HW9, add 1-5 tasks" />
+    <MESSAGE value="add HW9" />
+    <option name="LAST_COMMIT_MESSAGE" value="add HW9" />
   </component>
 </project>

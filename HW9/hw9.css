@@ -22,9 +22,6 @@
 .divMini{
     display: flex;
 }
-.divMini2{
-    height: 25vh;
-}
 .blockA, .blockB, .blockC{
     border: 1px solid darkblue;
     margin: 3px;

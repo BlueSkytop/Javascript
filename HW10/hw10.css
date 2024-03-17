@@ -1,0 +1,53 @@
+#f1{
+    width: 20vw;
+    height: 20vh;
+    background-color: darkgray;
+}
+#i1, #i2, #i3{
+    width: 18vw;
+    height: 3vh;
+    margin: 5px 0 6px 10px;
+    border: 2px solid #546c53;
+    border-radius: 5px;
+}
+button{
+    width: 10vw;
+    height: 4vh;
+    background-color: #51624f;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 70px;
+    border-radius: 5px;
+}
+.pStyle{
+  font-size: 46px;
+    color: #fa0909;
+}
+.btnStyle {
+    width: 20vw;
+    height: 7vh;
+    margin: 0;
+    background-color: #5d1717;
+    font-size: 35px;
+    animation-name: btnAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+    @keyframes btnAnimation {
+        0% {
+            background: #561717;
+        }
+        50% {
+            background: #b9b903;
+        }
+        100% {
+            background: #6a6a9f;
+        }
+    }
+
+    #contentBlock{
+        width: 200px;
+        background-color: #ded4b0;
+        font-size: 22px;
+    }

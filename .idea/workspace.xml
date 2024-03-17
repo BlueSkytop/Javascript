@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9088081c-c601-486c-be72-896b64501d76" name="Changes" comment="add HW9">
+    <list default="true" id="9088081c-c601-486c-be72-896b64501d76" name="Changes" comment="add &lt;ul&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul&gt; to HW9">
+      <change afterPath="$PROJECT_DIR$/HW10/hw10.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW10/hw10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW10/hw10.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW9/hw9.css" beforeDir="false" afterPath="$PROJECT_DIR$/HW9/hw9.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW9/hw9.js" beforeDir="false" afterPath="$PROJECT_DIR$/HW9/hw9.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -83,7 +85,17 @@
       <workItem from="1710360433891" duration="1006000" />
       <workItem from="1710423409682" duration="11754000" />
       <workItem from="1710489848967" duration="4113000" />
-      <workItem from="1710497357873" duration="15550000" />
+      <workItem from="1710497357873" duration="15759000" />
+      <workItem from="1710623026055" duration="504000" />
+      <workItem from="1710623937848" duration="529000" />
+      <workItem from="1710624520218" duration="98000" />
+      <workItem from="1710661352821" duration="2258000" />
+      <workItem from="1710663863298" duration="3682000" />
+      <workItem from="1710672413490" duration="219000" />
+      <workItem from="1710672656084" duration="407000" />
+      <workItem from="1710673292764" duration="1675000" />
+      <workItem from="1710675283491" duration="414000" />
+      <workItem from="1710675765356" duration="3590000" />
     </task>
     <task id="LOCAL-00001" summary="add HW1">
       <option name="closed" value="true" />
@@ -181,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710514215030</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add &lt;ul&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul&gt; to HW9">
+      <option name="closed" value="true" />
+      <created>1710540099602</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710540099602</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +219,7 @@
     <MESSAGE value="add HW8" />
     <MESSAGE value="create HW9, add 1-5 tasks" />
     <MESSAGE value="add HW9" />
-    <option name="LAST_COMMIT_MESSAGE" value="add HW9" />
+    <MESSAGE value="add &lt;ul&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul&gt; to HW9" />
+    <option name="LAST_COMMIT_MESSAGE" value="add &lt;ul&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul&gt; to HW9" />
   </component>
 </project>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Users details</title>
+</head>
+<body>
+<div>
+  <button style="width: 200px; height: 50px; "><a href="users.html" style="text-decoration: none; color: #c54311;
+       font-size: 18px" >Back to list users</a></button>
+</div>
+<script>
+    let userId = new URL(location.href).searchParams.get('id');
+    console.log(userId);
+
+    let baseURL = 'https://jsonplaceholder.typicode.com/users/'+userId;
+    fetch(baseURL)
+    .then(res => res.json())
+    .then(users => {
+        console.log(users);
+
+        let userInfo = document.createElement('div')
+        document.body.appendChild(userInfo)
+
+        for (const userKey in users) {
+                if (userKey === 'address' || userKey === 'company') {
+                    for (const key in users[userKey]) {
+                        let h5 = document.createElement('h5')
+                        userInfo.appendChild(h5)
+                        h5.innerText = `${key} - ${users[userKey][key]}`}
+                     }else{
+                    let div = document.createElement('div')
+                    userInfo.appendChild(div)
+                    div.innerText =`${userKey} - ${users[userKey]}`
+                }
+                    }
+    })
+</script>
+</body>
+</html>

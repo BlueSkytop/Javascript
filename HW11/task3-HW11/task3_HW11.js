@@ -4,7 +4,6 @@
 при кліку на посилання перехід на відповідну сторінку, на якій буде вся інформація про користувача (всі 15 полів)
 отримана через додатковий запит (https://jsonplaceholder.typicode.com/users/XXX   де ХХХ - айді користувача)*/
 
-
 const URL = 'http://jsonplaceholder.typicode.com/users';
 
 function usersAll(url) {
@@ -23,17 +22,17 @@ function usersFn(individs) {
     container.innerHTML = '';
 
     for (const individ of individs) {
-      let divForUser = document.createElement('div');
-      divForUser.classList.add('styleUser');
+        let divForUser = document.createElement('div');
+        divForUser.classList.add('styleUser');
 
-      let h5 = document.createElement('h5');
-      h5.innerText = `${individ.id}. ${individ.name}`;
+        let h5 = document.createElement('h5');
+        h5.innerText = `${individ.id}. ${individ.name}`;
 
-      h5.addEventListener('click', ()=>{
-          location.href = 'users-details.html?id='+ individ.id
-      })
+        h5.addEventListener('click', ()=>{
+            location.href = 'users-details.html?id='+ individ.id
+        })
 
-      divForUser.append(h5);
-      container.appendChild(divForUser);
+        divForUser.append(h5);
+        container.appendChild(divForUser);
     }
 }
